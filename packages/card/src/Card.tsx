@@ -1,4 +1,7 @@
+import React from 'react';
+
 import Button from '@jcrengifoa/button';
+
 import { ICardProps } from './card.types';
 
 function Card(props: ICardProps) {

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { IButtonProps } from './button.types';
 
 function Button(props: IButtonProps) {
