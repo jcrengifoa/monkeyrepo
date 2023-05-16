@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "parcel build",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist && rm -rf node_modules",
     "test": "jest",
     "watch": "parcel watch"
   },

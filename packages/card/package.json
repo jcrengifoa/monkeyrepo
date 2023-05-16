@@ -20,12 +20,12 @@
   },
   "scripts": {
     "build": "parcel build",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist && rm -rf node_modules",
     "test": "jest",
     "watch": "parcel watch"
   },
   "dependencies": {
-    "@jcrengifoa/button": "^1.1.0",
+    "@jcrengifoa/button": "^0.0.0",
     "react": "^18.2.0"
   },
   "devDependencies": {

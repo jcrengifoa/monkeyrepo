@@ -16,19 +16,20 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    label: 'Button',
+    label: 'Primary Button',
     onClick: () => {
       alert('Button Clicked');
     },
+    secondary: false,
   },
 };
 
 export const Secondary: Story = {
   args: {
     label: 'Secondary Button',
-    secondary: true,
     onClick: () => {
       alert('Secondary Button Clicked');
     },
+    secondary: true,
   },
 };
