@@ -6,6 +6,9 @@ const meta = {
   title: '@jcrengifoa/card',
   component: Card,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
 } satisfies Meta<typeof Card>;
 
 export default meta;

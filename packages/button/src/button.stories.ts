@@ -6,8 +6,8 @@ const meta = {
   title: '@jcrengifoa/button',
   component: Button,
   tags: ['autodocs'],
-  argTypes: {
-    label: { control: 'text' },
+  parameters: {
+    layout: 'centered',
   },
 } satisfies Meta<typeof Button>;
 
@@ -26,6 +26,7 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     label: 'Secondary Button',
+    secondary: true,
     onClick: () => {
       alert('Secondary Button Clicked');
     },
