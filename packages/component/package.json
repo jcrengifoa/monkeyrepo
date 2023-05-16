@@ -1,7 +1,8 @@
 {
-  "name": "@jcrengifoa/card",
+  "private": true,
+  "name": "@jcrengifoa/component",
   "version": "0.0.0",
-  "description": "Card Component",
+  "description": "Component",
   "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
   "homepage": "",
   "license": "ISC",
@@ -28,7 +29,6 @@
     "watch": "parcel watch"
   },
   "dependencies": {
-    "@jcrengifoa/button": "^0.0.0",
     "react": "^18.2.0"
   },
   "devDependencies": {

@@ -13,6 +13,9 @@
     "dist"
   ],
   "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
     "testEnvironment": "jest-environment-jsdom",
     "transform": {
       "^.+\\.(ts|tsx|js|jsx)$": "ts-jest"
@@ -20,7 +23,7 @@
   },
   "scripts": {
     "build": "parcel build",
-    "clean": "rm -rf dist && rm -rf node_modules",
+    "clean": "rm -rf dist && rm -rf node_modules && rm -rf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
   },
@@ -30,6 +33,7 @@
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "parcel": "^2.8.3",
