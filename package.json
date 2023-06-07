@@ -14,7 +14,8 @@
     "packages:publish": "npm run packages:clean && npm run packages:build && lerna publish",
     "storybook:develop": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build"
+    "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build",
+    "build-storybook": "npm run storybook:build"
   },
   "dependencies": {
     "react": "^18.2.0",
