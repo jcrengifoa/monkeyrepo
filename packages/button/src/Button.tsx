@@ -6,9 +6,11 @@ function Button(props: IButtonProps) {
   return (
     <button
       className={`
-      ${buttonStyles.button}
-      ${props.secondary ? buttonStyles.secondary : ''}
-    `}
+        ${buttonStyles.button}
+        ${props.secondary ? buttonStyles.secondary : ''}
+        ${props.secondary ? buttonStyles.disabled : ''}
+      `}
+      disabled={!!props.disabled}
       onClick={props.onClick}
     >
       {props.label}
