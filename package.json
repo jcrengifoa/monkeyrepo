@@ -12,7 +12,7 @@
     "packages:publish": "lerna publish",
     "packages:test": "lerna run test",
     "storybook:develop": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
+    "build-storybook": "storybook build",
     "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build"
   },
   "dependencies": {
