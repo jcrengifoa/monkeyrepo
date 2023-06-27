@@ -13,7 +13,7 @@ function Button(props: IButtonProps) {
       disabled={!!props.disabled}
       onClick={props.onClick}
     >
-      {props.label}
+      {props.label} Pink
     </button>
   );
 }
