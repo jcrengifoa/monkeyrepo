@@ -39,7 +39,8 @@ Run `npm run packages:test` to run your components tests suites
 ##### Probably, you forgot to authenticate to your repository, therefore, pushing the tag failed. If this happens, you just have to revert the newly created commit and tag manually by following the next steps:
 
 - Run `git tag` to double check what your tag was (the version upgrade you selected in the publish step)
-- Run `git tag -d v1.1.0` IMPORTANT: replace v1.1.0 with the correct version you want to delete
+- Run `git tag -d v1.1.0` to delete tag from HEAD. IMPORTANT: replace v1.1.0 with the correct version you want to delete
+- Run `git push --delete origin v1.0.0` to delete remote tag from origin. IMPORTANT: replace v1.1.0 with the correct version you want to delete
 - Run `git reset HEAD~1 --hard` to undo the latest commit in your HEAD
 - Run `git push -f` to undo the latest commit in your ORIGIN (remote)
 - Authenticate and run again `npm run packages:publish`, hopefully this time it will work
