@@ -6,5 +6,5 @@ test('loads items eventually', async () => {
   const componentText = 'Test Component Text';
   render(<Component text={componentText} />);
 
-  screen.getByText('Test Component Textx');
+  screen.getByText('Test Component Text');
 });

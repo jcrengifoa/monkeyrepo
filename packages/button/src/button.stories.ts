@@ -33,3 +33,13 @@ export const Secondary: Story = {
     secondary: true,
   },
 };
+
+export const Disabled: Story = {
+  args: {
+    disabled: true,
+    label: 'Secondary Button',
+    onClick: () => {
+      alert('Secondary Button Clicked');
+    },
+  },
+};

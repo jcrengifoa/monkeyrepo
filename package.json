@@ -9,12 +9,12 @@
     "app:preview": "vite preview",
     "packages:build": "lerna bootstrap && lerna run build",
     "packages:clean": "lerna run clean",
-    "packages:link": "lerna link",
     "packages:test": "lerna run test",
     "packages:publish": "npm run packages:clean && npm run packages:build && lerna publish",
     "storybook:develop": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build"
+    "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build",
+    "build-storybook": "npm run storybook:build"
   },
   "dependencies": {
     "react": "^18.2.0",
