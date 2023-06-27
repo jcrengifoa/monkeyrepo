@@ -8,7 +8,7 @@
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "build": "parcel build",
+    "build": "parcel build . --no-cache",
     "clean": "rm -rf dist && rm -rf node_modules && rm -rf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
