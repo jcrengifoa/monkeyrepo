@@ -4,7 +4,6 @@
     "allowSyntheticDefaultImports": true,
     "composite": true,
     "declaration": true,
-    "declarationDir": "types",
     "emitDeclarationOnly": true,
     "esModuleInterop": false,
     "forceConsistentCasingInFileNames": true,
@@ -20,6 +19,5 @@
     "target": "ESNext",
     "useDefineForClassFields": true
   },
-  "include": ["src", "packages"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "packages"]
 }

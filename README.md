@@ -2,7 +2,7 @@
 
 ## Initialization
 
-Run `npm run packages:build` to install all the dependencies you need to run the monorepo.
+Run `npm i && npm run packages:build` to install all the dependencies you need to run the monorepo and build the packages for the first time.
 
 ## After Initialization
 
