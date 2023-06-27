@@ -9,8 +9,8 @@
     "app:preview": "vite preview",
     "packages:build": "lerna run build",
     "packages:clean": "lerna run clean",
-    "packages:test": "lerna run test",
     "packages:publish": "lerna publish",
+    "packages:test": "lerna run test",
     "storybook:develop": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "chromatic": "from-env chromatic --project-token %CHROMATIC_PROJECT_TOKEN --build-script-name storybook:build"
