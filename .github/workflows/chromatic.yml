@@ -8,14 +8,14 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Configurar .npmrc
         run: |
           echo "@mercedes-benz:registry=https://artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/" > .npmrc
           echo "//artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/:_authToken=${{ secrets.NPM_MERCEDES_BENZ_TOKEN }}" >> .npmrc
           echo "//artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/:always-auth=true" >> .npmrc
           echo "strict-ssl=false" >> .npmrc
-      - name: Show .npmrc
-        run: cat .npmrc
       - name: Install Dependencies
         run: npm install
       - name: Build Packages
