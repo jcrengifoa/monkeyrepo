@@ -21,9 +21,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@parcel/packager-ts": "^2.8.3",
-    "@parcel/transformer-sass": "^2.8.3",
-    "@parcel/transformer-typescript-types": "^2.8.3",
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
@@ -41,6 +38,7 @@
     "rimraf": "^5.0.1",
     "sass": "^1.63.6",
     "storybook": "^7.0.18",
+    "typed-scss-modules": "^7.1.1",
     "typescript": "^5.1.6",
     "vite": "^4.2.0"
   },
