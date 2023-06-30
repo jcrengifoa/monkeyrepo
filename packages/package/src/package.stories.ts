@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Package from './Package';
 
 const meta = {
-  title: '@jcrengifoa/package',
+  title: '@monkeyrepo/package',
   component: Package,
   tags: ['autodocs'],
   parameters: {

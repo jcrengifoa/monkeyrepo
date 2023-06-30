@@ -1,4 +1,4 @@
-import Button from '@jcrengifoa/button';
+import Button from '@monkeyrepo/button';
 
 import { ICardProps } from './card.types';
 

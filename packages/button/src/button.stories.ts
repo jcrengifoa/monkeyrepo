@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Button from './Button';
 
 const meta = {
-  title: '@jcrengifoa/button',
+  title: '@monkeyrepo/button',
   component: Button,
   tags: ['autodocs'],
   parameters: {
