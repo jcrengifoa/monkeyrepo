@@ -28,7 +28,7 @@
     "watch": "parcel watch"
   },
   "dependencies": {
-    "@jcrengifoa/button": "^0.0.0",
+    "@monkeyrepo/button": "^0.0.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
