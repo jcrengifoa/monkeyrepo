@@ -4,7 +4,7 @@
   "description": "Cancel Button",
   "author": "Nelson Varas U.<odilon.varas@gmail.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "build": "parcel build --log-level verbose",
+    "build": "parcel build",
     "clean": "rm -rf dist && rm -rf node_modules && rm -rf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
