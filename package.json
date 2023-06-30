@@ -1,5 +1,6 @@
 {
-  "name": "@jcrengifoa/monkeyrepo",
+  "name": "monkeyrepo",
+  "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
   "private": true,
   "version": "0.0.0",
   "scripts": {

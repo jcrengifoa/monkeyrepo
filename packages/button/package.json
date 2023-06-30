@@ -1,10 +1,10 @@
 {
-  "name": "@jcrengifoa/button",
+  "name": "@monkeyrepo/button",
   "version": "0.0.0",
   "description": "Button Component",
   "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

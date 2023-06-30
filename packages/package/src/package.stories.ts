@@ -1,27 +1,27 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Component from './Component';
+import Package from './Package';
 
 const meta = {
-  title: '@jcrengifoa/component',
-  component: Component,
+  title: '@jcrengifoa/package',
+  component: Package,
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },
-} satisfies Meta<typeof Component>;
+} satisfies Meta<typeof Package>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    text: 'Component text',
+    text: 'Package text',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    text: 'Secondary Component text',
+    text: 'Secondary Package text',
   },
 };
