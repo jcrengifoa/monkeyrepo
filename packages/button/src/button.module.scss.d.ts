@@ -1,4 +1,2 @@
-declare module '*.module.scss' {
-  const styles: { [className: string]: string };
-  export default styles;
-}
+export declare const button: string;
+export declare const secondary: string;
