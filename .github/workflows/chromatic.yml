@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Configurar .npmrc
-        run: ${{ secrets.NPMRC }}
+        run: echo '@mercedes-benz:registry=https://artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/' > .npmrc && echo "//artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/:_authToken=\${NPM_MERCEDES_BENZ_TOKEN}" >> .npmrc && echo "//artifacts.i.mercedes-benz.com/artifactory/api/npm/switch-main-npm-releases/:always-auth=true" >> .npmrc && echo "strict-ssl=false" >> .npmrc
       - uses: actions/checkout@v1
       - name: Install Dependencies
         run: npm install
