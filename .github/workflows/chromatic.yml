@@ -6,6 +6,8 @@ jobs:
   chromatic-deployment:
     runs-on: ubuntu-latest
     steps:
+      - name: Configurar .npmrc
+        run: ${{ secrets.NPMRC }}
       - uses: actions/checkout@v1
       - name: Install Dependencies
         run: npm install
