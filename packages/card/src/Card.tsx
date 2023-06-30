@@ -7,10 +7,10 @@ import cardStyles from './card.module.scss';
 function Card(props: ICardProps) {
   return (
     <div className={cardStyles.card}>
-      <div className={cardStyles.card__title}>
+      <div className={cardStyles.cardTitle}>
         <h1>{props.title}</h1>
       </div>
-      <div className={cardStyles.card__content}>
+      <div className={cardStyles.cardContent}>
         <Button onClick={() => alert('Everybody')} label='Alert Everybody!' />
       </div>
     </div>

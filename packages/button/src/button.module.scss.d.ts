@@ -1,3 +1,4 @@
-export declare const button: string;
-export declare const disabled: string;
-export declare const secondary: string;
+declare module '*.module.scss' {
+  const styles: { [className: string]: string };
+  export default styles;
+}
