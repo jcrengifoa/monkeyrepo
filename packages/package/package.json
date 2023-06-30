@@ -23,7 +23,7 @@
     }
   },
   "scripts": {
-    "build": "parcel build . --no-cache",
+    "build": "parcel build --log-level verbose",
     "clean": "rimraf dist && rimraf node_modules && rimraf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
