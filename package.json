@@ -38,7 +38,6 @@
     "rimraf": "^5.0.1",
     "sass": "^1.63.6",
     "storybook": "^7.0.18",
-    "typed-scss-modules": "^7.1.1",
     "typescript": "^5.1.6",
     "vite": "^4.2.0"
   },
