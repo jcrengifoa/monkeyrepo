@@ -2,13 +2,8 @@
   cursor: pointer;
 }
 
-button.iconButton {
+.iconButton {
   padding: 0.5;
-  color: var(--color);
-
-  &:hover {
-    color: var(--hover-color);
-  }
 }
 
 .icon {

@@ -19,12 +19,10 @@ export function ActionItem({
           disabled={disabled}
           disableRipple
           onClick={onClick}
-          style={
-            {
-              '--color': black,
-              '--hover-color': blue[45],
-            } as React.CSSProperties
-          }
+          sx={{
+            color: black,
+            '&:hover': blue[45],
+          }}
         >
           <Icon className={actionItemStyles.icon} />
         </IconButton>
