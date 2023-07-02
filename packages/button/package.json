@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "build": "typed-scss-modules src && parcel build",
+    "build": "typed-scss-modules src -n none && parcel build",
     "clean": "rimraf dist && rimraf node_modules && rimraf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
