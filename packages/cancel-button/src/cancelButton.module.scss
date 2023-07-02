@@ -1,0 +1,17 @@
+// import { blue, white } from '@mercedes-benz/mui5-theme'
+:root {
+  --color-white: #fff;
+  ---color-blue45: #002b49;
+}
+
+.cancelBtnStyle {
+  border-radius: 2px;
+  // backgroundColor: white;
+  background-color: var(--color-white);
+  // color: blue[45];
+  color: var(--color-blue45);
+  min-width: 7.5rem;
+  margin-right: 8px;
+  padding: 6px 16px 6px 0;
+  justify-content: space-between;
+}

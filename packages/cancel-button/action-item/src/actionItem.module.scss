@@ -1,0 +1,18 @@
+.pointer {
+  cursor: pointer;
+}
+
+button.iconButton {
+  padding: 0.5;
+  color: var(--color);
+
+  &:hover {
+    color: var(--hover-color);
+  }
+}
+
+.icon {
+  padding: 0;
+  width: '1.5rem';
+  height: '1.5rem';
+}
