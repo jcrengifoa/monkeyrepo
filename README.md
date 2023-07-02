@@ -63,6 +63,8 @@ Also, there's a "chromatic" script available just in case you want to create a b
 
 For more information, visit [Chromatic's documentation](https://www.chromatic.com/docs/)
 
+NOTE: If you are working with packages from another private monorepo in the chromatic.yml you have an example of how you could create your own .npmrc with your private repository credentials so your packages get correctly installed.
+
 #### React Application
 
 A react application is included in this repository just in case you want to develop your actual app directly here.
