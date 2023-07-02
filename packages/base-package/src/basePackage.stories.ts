@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Package from './Package';
+import BasePackage from './BasePackage';
 
 const meta = {
-  title: '@monkeyrepo/package',
-  component: Package,
+  title: '@monkeyrepo/basePackage',
+  component: BasePackage,
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },
-} satisfies Meta<typeof Package>;
+} satisfies Meta<typeof BasePackage>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

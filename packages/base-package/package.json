@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@monkeyrepo/package",
+  "name": "@monkeyrepo/base-package",
   "version": "0.0.0",
   "description": "Component",
   "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
@@ -23,7 +23,7 @@
     }
   },
   "scripts": {
-    "build": "typed-scss-modules src -n none && parcel build",
+    "build": "typed-scss-modules src -n none -e default && parcel build",
     "clean": "rimraf dist && rimraf node_modules && rimraf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"

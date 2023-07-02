@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "build": "typed-scss-modules src -n none && parcel build",
+    "build": "typed-scss-modules src -n none -e default && parcel build",
     "clean": "rm -rf dist && rm -rf node_modules && rm -rf .parcel-cache",
     "test": "jest",
     "watch": "parcel watch"
