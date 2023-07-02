@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import Card from '@jcrengifoa/card';
+import Card from '@monkeyrepo/card';
 
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';

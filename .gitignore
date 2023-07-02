@@ -15,6 +15,7 @@ dist-ssr
 *.local
 storybook-static
 .npmrc
+packages/**/*.scss.d.ts
 
 # Editor directories and files
 .vscode/*

@@ -6,7 +6,19 @@ jobs:
   chromatic-deployment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.16.0
+      - name: Checkout source code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      # - name: Create .npmrc
+      #   run: |
+      #     echo "@YOUR_SCOPE:registry=YOUR_REPOSITORY_URL" > .npmrc
+      #     echo "//YOUR_REPOSITORY_URL:_authToken=${{ secrets.YOUR_SECRET_TOKEN }}" >> .npmrc
+      #     echo "//YOUR_REPOSITORY_URL:always-auth=true" >> .npmrc
       - name: Install Dependencies
         run: npm install
       - name: Build Packages

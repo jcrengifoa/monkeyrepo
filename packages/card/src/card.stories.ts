@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Card from './Card';
 
 const meta = {
-  title: '@jcrengifoa/card',
+  title: '@monkeyrepo/card',
   component: Card,
   tags: ['autodocs'],
   parameters: {
