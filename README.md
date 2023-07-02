@@ -8,9 +8,9 @@ Run `npm i && npm run packages:build` to install all the dependencies you need t
 
 #### Create a new package
 
-Keep it simple, just duplicate the "package" folder which is intended to serve as a "template" for creating new packages and which is ignored by the publishing process. Below, a checklist just to make sure you do it right:
+Keep it simple, just duplicate the "base-package" folder which is intended to serve as a "template" for creating new packages and which is ignored by the publishing process (private: true in its package.json). Below, a checklist just to make sure you do it right:
 
-- [ ] Duplicate the "package" folder
+- [ ] Duplicate the "base-package" folder
 - [ ] Rename the files under src following the naming convention
 - [ ] Change the README.md to match the package information.
 - [ ] Edit the package.json
