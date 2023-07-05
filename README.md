@@ -26,9 +26,22 @@ Run `npm run storybook:develop` to run storybook and see your packages
 
 1. Change the necessary files
 2. Commit your changes
-3. Make sure you are targeting the correct registry in the file lerna.json > command > publish > registry
-4. Run `npm run packages:publish`
-5. Select the correct version upgrade (More info about Semantic Versioning -> https://semver.org/lang/es/)
+3. Log in to your registry using `npm login` (use the --registry option in case the registry is not the default one or you need to be logged in in more than one registry)
+4. Target the correct registry in the file lerna.json > command > publish > registry
+5. Run `npm run packages:publish`
+6. Select the correct version upgrade (More info about Semantic Versioning -> https://semver.org/lang/es/)
+7. Done!
+
+##### Verdaccio
+
+The default registry this MonkeyRepo is targeting is Verdaccio. For more information, visit [Verdaccio's documentation](https://verdaccio.org/docs/what-is-verdaccio)
+
+To set it up on your local environment you have to follow this easy steps:
+
+1. Run `npm i -g verdaccio`
+2. Run `verdaccio`
+3. Access your verdaccio server with your favorite browser
+4. Follow the instructions you'll find in its homepage (using the commands `npm adduser` and `npm login`)
 
 #### Publish failed 🙈
 
@@ -40,6 +53,10 @@ Probably, you forgot to authenticate to your repository, therefore, pushing the 
 4. Run `git reset HEAD~1 --hard` to undo the latest commit in your HEAD
 5. Run `git push -f` to undo the latest commit in your ORIGIN (remote)
 6. Authenticate and run again `npm run packages:publish`, hopefully this time it will work
+
+##### Verdaccio
+
+If you failed publishing to verdaccio and depending on your OS, there might be some extra steps you need to follow in order to clean your registry from wrongly/partially uploaded packages. Make sure to read the docs.
 
 #### Tests
 
