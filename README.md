@@ -42,6 +42,7 @@ To set it up on your local environment you have to follow this easy steps:
 2. Run `verdaccio`
 3. Access your verdaccio server with your favorite browser
 4. Follow the instructions you'll find in its homepage (using the commands `npm adduser` and `npm login`)
+5. Create an .npmrc file in the root of your project with the following content `registry=http://localhost:4873/`
 
 #### Publish failed 🙈
 
