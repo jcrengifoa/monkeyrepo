@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@monkeyrepo/base-package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Component",
   "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
   "homepage": "",

@@ -1,6 +1,6 @@
 {
   "name": "@monkeyrepo/card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Card Component",
   "author": "Juan Carlos Rengifo <jcrengifoa@gmail.com>",
   "homepage": "",
@@ -28,7 +28,7 @@
     "watch": "parcel watch"
   },
   "dependencies": {
-    "@monkeyrepo/button": "^1.0.0",
+    "@monkeyrepo/button": "^1.1.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
